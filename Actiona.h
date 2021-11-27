@@ -1,10 +1,11 @@
 #ifndef _ACTIONA_H 
 #include "globals.h"
 int i;
+
 Number_of_passangers(int i);
 #endif
 Number_of_passangers(int i){
-	
+	lr_save_int(i, "Bigger");
 	i = rand()%i + 1;
 	lr_save_int(i, "NumberPassanger");
 	

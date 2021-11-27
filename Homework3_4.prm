@@ -1,7 +1,7 @@
 [parameter:City1]
 ColumnName="City1"
 Delimiter=","
-GenerateNewVal="EachIteration"
+GenerateNewVal="EachOccurrence"
 OriginalValue=""
 OutOfRangePolicy="ContinueWithLast"
 ParamName="City1"
@@ -15,7 +15,7 @@ value_for_each_vuser=""
 [parameter:City2]
 ColumnName="City2"
 Delimiter=","
-GenerateNewVal="EachIteration"
+GenerateNewVal="EachOccurrence"
 OriginalValue=""
 OutOfRangePolicy="ContinueWithLast"
 ParamName="City2"

@@ -9,6 +9,6 @@
 #include "Actiona.h"
 //--------------------------------------------------------------------
 // Global Variables
-
+int j;
 
 #endif // _GLOBALS_H
