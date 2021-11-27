@@ -5,7 +5,7 @@ vuser_end()
 	int g;
 	g=0;
 	do
-	{
+	{g++;
 		
 		if(g==atoi(lr_eval_string("{NPass_1}")))
 		   {
@@ -86,7 +86,7 @@ vuser_end()
 			lr_output_message(lr_eval_string("{Cost_10}"));
 		   }
 		   
-	g++;
+	
 	}
 	while(g!=atoi(lr_eval_string("{Bigger}")));
 	web_url("SignOff Button", 
